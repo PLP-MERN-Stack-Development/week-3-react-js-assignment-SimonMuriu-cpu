@@ -15,9 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tasks" element={<Tasks />} />
-            
             <Route path="/posts" element={<Posts />} />
-            {/* Add more routes here as we create them */}
           </Routes>
         </Layout>
       </Router>
