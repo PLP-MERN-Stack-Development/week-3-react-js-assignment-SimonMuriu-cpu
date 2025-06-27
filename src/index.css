@@ -1,7 +1,10 @@
+@import "tw-animate-css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 @layer base {
   * {
@@ -26,8 +29,7 @@
 
 
 
-@import "tw-animate-css";
-@custom-variant dark (&:is(.dark *));
+/* @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
@@ -67,6 +69,8 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+
+*/
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);

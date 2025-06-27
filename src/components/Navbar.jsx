@@ -24,9 +24,7 @@ const Navbar = () => {
             <Link to="/posts" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
               Posts
             </Link>
-            <Link to="/about" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
-              About
-            </Link>
+            
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600"
